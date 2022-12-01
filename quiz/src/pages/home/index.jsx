@@ -1,10 +1,12 @@
-import Pin from '../../components/pin/index'
+
+import JoinPage from '../../components/JoinPage/index'
 
 function Home()
 {
     return (
         <body>
-            <Pin/>
+            <JoinPage/>
+
         </body>
     )
 }

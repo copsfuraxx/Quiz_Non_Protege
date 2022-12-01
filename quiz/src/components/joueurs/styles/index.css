@@ -11,6 +11,7 @@
 .container-joueurs h3{
     font-size: 2vw;
     margin-top: 30px;
+    margin-bottom : 40px;
 }
 
 .container-joueur-score{
@@ -26,7 +27,7 @@
 
 .container-joueur-score p{
     color: #c4c0c0;
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 .liste-joueurs{

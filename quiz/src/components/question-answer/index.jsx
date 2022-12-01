@@ -7,20 +7,20 @@ function QuestionReponse()
         <div>
             <Question/>
             <div className='answer-container'>
-                <div className='top-question-container'>
+                <div className='top-answer-container'>
                     <div>
-                        <Answer className="" titreAnswer="Answer 1"/>
+                        <Answer titreAnswer="Le VIH"/>
                     </div>
                     <div>
-                        <Answer titreAnswer="Answer 2"/>
+                        <Answer titreAnswer="La grippe"/>
                     </div>
                 </div>
-                <div className='bot-question-container'>
+                <div className='bot-answer-container'>
                     <div>
-                        <Answer titreAnswer="Answer 3"/>
+                        <Answer titreAnswer="Les micoses"/>
                     </div>
                     <div>
-                        <Answer titreAnswer="Answer 4"/>
+                        <Answer titreAnswer="La scifilice"/>
                     </div>
                 </div>
             </div>

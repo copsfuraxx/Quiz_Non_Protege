@@ -1,8 +1,8 @@
-function Answer({titreQuestion})
+function Answer({titreAnswer})
 {
     return(
         <div>
-            <p>Answer{titreQuestion}</p>
+            <p>{titreAnswer}</p>
         </div>
     )
 }

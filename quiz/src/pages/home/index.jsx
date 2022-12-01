@@ -5,7 +5,7 @@ function Home()
 {
     return (
         <div>
-            <h1 className='title'>super home</h1>
+            <h1 className='title'>salut evan</h1>
             <Answer titre="coucou" description="super description"/>
         </div>
     )

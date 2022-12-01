@@ -16,6 +16,8 @@ code {
 
 *{
   font-family: g-regular ;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {

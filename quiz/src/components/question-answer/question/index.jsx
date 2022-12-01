@@ -1,6 +1,7 @@
+import '../question/styles/index.css';
 function Question(){
     return(
-        <p>Question</p>
+        <h2 className='question'>Question</h2>
     )
 }
 

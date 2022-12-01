@@ -29,3 +29,8 @@ code {
   font-family: g-heavy;
   src: url("./font/g-heavy.otf");
 }
+
+@font-face {
+  font-family: g-bold;
+  src: url("./font/g-bold.otf");
+}

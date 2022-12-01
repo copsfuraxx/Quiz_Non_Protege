@@ -1,13 +1,29 @@
 .container-joueurs{
-    background-color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 10vw;
+    width: 15vw;
     height: 100vh;
-    overflow-Y: scroll;
+    background: #FFFFFF;
+    box-shadow: -11px 4px 47px rgba(0, 0, 0, 0.25);
 }
 
+.container-joueurs h3{
+    margin-top: 5vh;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.liste-joueurs{
+    overflow-Y: scroll;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
 .container-joueurs p{
-    padding: 20px;
+    padding: 24px;
+    text-align: left;
 }

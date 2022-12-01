@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ADDING FONTS */
+
+*{
+  font-family: g-regular ;
+}
+
+@font-face {
+  font-family: g-regular;
+  src: url("./font/g-regular.otf");
+}

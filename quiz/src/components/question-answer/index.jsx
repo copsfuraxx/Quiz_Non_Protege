@@ -8,7 +8,7 @@ function QuestionReponse()
             <h1 className='title'>Quizz non-protégé</h1>
             <Question/>
             <div>
-                <Answer titreAnswer="Answer 1"/>
+                <Answer className="" titreAnswer="Answer 1"/>
             </div>
             <div>
                 <Answer titreAnswer="Answer 2"/>

@@ -2,6 +2,7 @@ import './styles/index.css';
 import Header from '../../components/header/index'
 import QuestionAnswer from '../../components/question-answer/index'
 import Joueurs from '../../components/joueurs/index'
+import Footer from '../../components/footer/index'
 
 function Home()
 {
@@ -16,6 +17,9 @@ function Home()
                     <Joueurs/>
                 </div>
             </div>
+      
+                    <Footer/>
+            
         </body>
     )
 }

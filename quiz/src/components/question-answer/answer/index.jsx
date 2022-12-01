@@ -1,3 +1,4 @@
+import '../answer/styles/index.css';
 function Answer({titreAnswer})
 {
     return(

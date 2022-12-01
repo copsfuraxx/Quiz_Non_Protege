@@ -1,15 +1,21 @@
 .pin{
     background-color: #BE1622;
-    display: flex;
-    flex-direction: column;
     width: 30%;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 65%;
     transform: translate(-50%, -50%);
     height: 200px;
     text-align: center;
     box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.25);
+}
+
+.big-logo{
+    width: 511px ;
+    height: 133px ;
+    background-image: url(../../../img/svg/big-logo.svg);
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
 .pininput{

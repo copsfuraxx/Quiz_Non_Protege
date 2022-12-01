@@ -1,3 +1,7 @@
-.container-question_answer{
-    margin-top: 25vh;
+body{
+    overflow-x: hidden;
+}
+
+.container-answer-question-joueurs{
+    display: flex;
 }

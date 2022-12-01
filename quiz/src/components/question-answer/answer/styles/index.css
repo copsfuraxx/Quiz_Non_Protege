@@ -1,7 +1,11 @@
+.answer-container{
+    margin-top: 5vh;
+}
+
 .home-answer{
     border-radius: 50px;
     text-decoration: none;
-    border: 10px solid rgb(255, 36, 36);
+    border: 5px solid rgb(255, 36, 36);
     background: white;
     width: 500px;
     height: 200px;

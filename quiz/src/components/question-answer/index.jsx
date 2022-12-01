@@ -1,3 +1,4 @@
+import '../styles/index.css';
 import Answer from '../../components/question-answer/answer/index'
 import Question from '../../components/question-answer/question/index'
 

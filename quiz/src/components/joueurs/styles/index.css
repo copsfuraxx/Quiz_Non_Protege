@@ -1,0 +1,13 @@
+.container-joueurs{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    height: 100vh;
+    overflow-Y: scroll;
+}
+
+.container-joueurs p{
+    padding: 20px;
+}

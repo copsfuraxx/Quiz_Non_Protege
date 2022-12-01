@@ -1,0 +1,21 @@
+.home-answer{
+    border-radius: 50px;
+    text-decoration: none;
+    border: 10px solid rgb(255, 36, 36);
+    background: white;
+    width: 500px;
+    height: 200px;
+    font-size: 36px;
+    background-color: rgb(255, 90, 90);
+    font-family: g-heavy;
+    color: white;
+}
+
+.top-answer-container, .bot-answer-container{
+    display : flex;
+    justify-content: space-around;
+}
+
+.top-answer-container{
+    margin-bottom : 50px;
+}

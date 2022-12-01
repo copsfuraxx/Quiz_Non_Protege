@@ -24,3 +24,8 @@ code {
   font-family: g-regular;
   src: url("./font/g-regular.otf");
 }
+
+@font-face {
+  font-family: g-heavy;
+  src: url("./font/g-heavy.otf");
+}

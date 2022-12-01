@@ -2,7 +2,7 @@ function Answer({titreAnswer})
 {
     return(
         <div>
-            <p>{titreAnswer}</p>
+            <button>{titreAnswer}</button>
         </div>
     )
 }

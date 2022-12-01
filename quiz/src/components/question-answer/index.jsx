@@ -5,7 +5,6 @@ function QuestionReponse()
 {
     return (
         <div>
-            <h1 className='title'>Quizz non-protégé</h1>
             <Question/>
             <div className='answer-container'>
                 <div className='top-question-container'>

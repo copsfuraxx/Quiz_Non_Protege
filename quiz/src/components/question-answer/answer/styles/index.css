@@ -8,8 +8,8 @@
     background: rgb(0, 0, 0);
     width: 30vw;
     height: 10vw;
-    font-size: 3vw;
-    font-family: g-heavy;
+    font-size: 2.5vw;
+    font-family: g-bold;
     color: white;
     cursor: pointer;
 }
@@ -38,13 +38,13 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
 
     .home-answer{
         text-decoration: none;
         border: none;
         background: rgb(0, 0, 0);
-        width: 30vw;
+        width: 35vw;
         height: 20vw;
         font-size: 3vw;
         font-family: g-heavy;

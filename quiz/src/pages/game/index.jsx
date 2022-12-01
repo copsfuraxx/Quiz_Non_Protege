@@ -1,7 +1,6 @@
 import './styles/index.css';
 import QuestionAnswer from '../../components/question-answer/index'
 import Joueurs from '../../components/joueurs/index'
-import Footer from '../../components/footer/index'
 
 function game()
 {
@@ -16,8 +15,7 @@ function game()
                 </div>
             </div>
       
-                    <Footer/>
-            
+                           
         </body>
     )
 }

@@ -6,6 +6,9 @@ function QuestionReponse()
 {
     return (
         <div>
+            <div className='logo'>
+                
+            </div>
             <Question/>
             <div className='answer-container'>
                 <div className='top-answer-container'>

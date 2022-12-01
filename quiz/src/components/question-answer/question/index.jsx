@@ -1,6 +1,6 @@
 function Question(){
     return(
-        <p>Test question</p>
+        <p>Question</p>
     )
 }
 

@@ -1,11 +1,11 @@
 
 import JoinPage from '../../components/JoinPage/index'
 
-function Home()
+function Home({socket})
 {
     return (
         <body>
-            <JoinPage/>
+            <JoinPage socket={socket}/>
 
         </body>
     )

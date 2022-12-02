@@ -4,7 +4,7 @@ export(int) var speed = 500
 
 func _physics_process(delta):
 	if get_slide_count() > 0:
-		var _var = get_tree().reload_current_scene()
+		var _var = get_tree().change_scene("res://DeathMenu.tscn")
 	var movement = Vector2.ZERO
 	if Input.is_action_pressed("left"):
 		movement.x -= speed

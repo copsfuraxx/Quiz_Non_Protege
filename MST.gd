@@ -19,5 +19,5 @@ func _physics_process(_delta):
 		queue_free()
 	else:
 		var movement = Vector2.ZERO
-		movement.y = speed
+		movement.y = speed + int($"../".score)
 		movement = move_and_slide(movement)

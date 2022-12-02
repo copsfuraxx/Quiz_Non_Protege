@@ -1,0 +1,62 @@
+.my-room h2{
+    font-size: 48px;
+    font-family: g-bold;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.left-content h5{
+    font-size: 36px;
+    font-family: g-light;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.left-content h6{
+    font-size: 48px;
+    font-family: g-bold;
+    color: #BE1622;
+    text-align: center;
+}
+
+.my-room-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user{
+    width: 244px;
+    height: 80px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.user h6{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: g-light;
+}
+
+.right-content{
+    display: flex;
+}
+
+.left-right-content{
+    margin-right: 80px;
+}
+
+.left-content button{
+    width: 312px;
+    height: 83px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    font-family: g-bold;
+}
+
+.last-h6{
+    padding-bottom: 50px;
+}

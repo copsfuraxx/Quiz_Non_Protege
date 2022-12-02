@@ -40,3 +40,8 @@ code {
   font-family: g-bold;
   src: url("./font/g-bold.otf");
 }
+
+@font-face {
+  font-family: g-light;
+  src: url("./font/g-light.otf");
+}

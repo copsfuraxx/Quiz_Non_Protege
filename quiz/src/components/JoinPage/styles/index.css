@@ -3,7 +3,15 @@
     height: 133px ;
     background-image: url(../../question-answer/img/svg/big-logo.svg);
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.create-team a{
+    text-decoration: underline;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .pin{

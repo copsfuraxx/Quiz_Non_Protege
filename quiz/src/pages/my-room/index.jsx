@@ -6,3 +6,4 @@ function Myroom(){
         </div>
     )
 }
+export default Myroom

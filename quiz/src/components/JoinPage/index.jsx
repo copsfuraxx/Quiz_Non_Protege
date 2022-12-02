@@ -8,7 +8,7 @@ function JoinPage({socket}){
 
     function hostGame()
     {
-        socket.emit('coucou', 'salut');
+        socket.emit('askHost');
     }
 
     useEffect(() => {

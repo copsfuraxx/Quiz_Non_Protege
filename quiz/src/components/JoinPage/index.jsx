@@ -6,8 +6,11 @@ function JoinPage(){
 
             </div>
             <div className='pin'>
-                <input className='pininput' type="text" name='pin'/>
-                <input className='join' type="submit" name="connexion" value="Rejoindre la salle" placeholder='Code Pin de la salle'/>
+                <input className='pin-input' type="text" name='pin' placeholder='Code Pin de la salle'/>
+                <button className='join' name="connexion">Rejoindre le Jeu</button>
+            </div>
+            <div className='home-footer'>
+                <p>Copyright © Quizz non-protégé 2022</p>
             </div>
         </div>
     )

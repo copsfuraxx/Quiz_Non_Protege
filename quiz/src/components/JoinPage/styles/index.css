@@ -1,15 +1,3 @@
-.pin{
-    background-color: #BE1622;
-    width: 30%;
-    position: absolute;
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    text-align: center;
-    box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.25);
-}
-
 .big-logo{
     width: 511px ;
     height: 133px ;
@@ -18,28 +6,49 @@
     margin-top: 150px;
 }
 
-.pininput{
-    background-color: black;
+.pin{
+    background-color: #BE1622;
+    width: 448px;
+    height: 183px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pin input{
+    width: 417px;
+    height: 64px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: g-bold;
+    background: white;
+    color: grey;
+    border: none;
     text-align: center;
-    color: #A4A4A4;
-    width: 80%;
-    height: 30%;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
+    margin-top:20px;
+    }
+
+.pin button{
+width: 417px;
+height: 64px;
+margin: 0 auto;
+font-size: 24px;
+font-family: g-bold;
+background: black;
+color: white;
+border: none;
+margin-top:20px;
 }
 
-.ppin{
-    color: white;
-    padding-top: 10%;
+.pin button:hover{
+    cursor: pointer;
 }
 
-.join{
-    padding-top: 30px;
-    padding-left: 90px;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
+.home-footer p{
+    font-size: 16px;
+    font-family: g-regular;
+    text-align: center;
+    margin-top: 100px;
 }

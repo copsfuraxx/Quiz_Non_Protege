@@ -12,7 +12,7 @@ function JoinPage({socket}){
     }
 
     useEffect(() => {
-        socket.on('coucouback', (data) => setMessages(data))
+        socket.on('new player', (data) => console.log(data))
     }, [socket, messages])
 
     return(
@@ -22,7 +22,7 @@ function JoinPage({socket}){
             {messages}
             <div className='pin'>
                 <input className='pin-input' type="text" name='pin' placeholder='Code Pin de la salle'/>
-                <button className='join' name="connexion">Rejoindre du Jeu</button>
+                <button className='join' name="connexion" onClick={()=>hostGame()}>Rejoindre le salon</button>
             </div>
             <div className='create-team'>
                 <a href="/create-room">Créez votre salle</a>

@@ -1,14 +1,16 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Assets/MST5.png" type="Texture" id=1]
+[ext_resource path="res://Assets/MST8.png" type="Texture" id=1]
 [ext_resource path="res://MST.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 106, 118.5 )
+extents = Vector2( 117, 102.5 )
 
-[node name="MST" type="KinematicBody2D"]
-position = Vector2( 423, -100 )
+[node name="MST" type="KinematicBody2D" groups=["mst"]]
+position = Vector2( 235, -100 )
 scale = Vector2( 0.2, 0.2 )
+collision_layer = 2
+collision_mask = 5
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]

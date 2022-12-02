@@ -21,3 +21,6 @@ func _physics_process(_delta):
 		var movement = Vector2.ZERO
 		movement.y = speed + int($"../".score)
 		movement = move_and_slide(movement)
+
+func hit():
+	queue_free()

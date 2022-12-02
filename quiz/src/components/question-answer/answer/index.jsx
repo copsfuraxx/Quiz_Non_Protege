@@ -2,9 +2,8 @@ import '../answer/styles/index.css';
 function Answer({titreAnswer})
 {
     return(
-        <div>
-            <button className='home-answer'>{titreAnswer}</button>
-        </div>
+            <div className='home-answer'><p>{titreAnswer}</p></div>
+
     )
 }
 

@@ -1,31 +1,24 @@
-import '../styles/index.css';
+import './styles/index.css';
 import Answer from '../../components/question-answer/answer/index'
 import Question from '../../components/question-answer/question/index'
 
 function QuestionReponse()
 {
     return (
-        <div>
-            <a href="/">
-                <div className='logo'></div>
-            </a>
+        <div className='game-container'>
+            <div className='logo'>
+                
+            </div>
             <Question/>
             <div className='answer-container'>
-                <div className='top-answer-container'>
-                    <div>
-                        <Answer titreAnswer="Le VIH"/>
-                    </div>
-                    <div>
-                        <Answer titreAnswer="La grippe"/>
-                    </div>
-                </div>
-                <div className='bot-answer-container'>
-                    <div>
-                        <Answer titreAnswer="Les micoses"/>
-                    </div>
-                    <div>
-                        <Answer titreAnswer="La scifilice"/>
-                    </div>
+                <div>
+                  <Answer titreAnswer="Le VIH"/>
+
+                 <Answer titreAnswer="La grippe"/>
+                </div><div>
+                <Answer titreAnswer="Les micoses"/>
+
+                <Answer titreAnswer="La scifilice"/>
                 </div>
             </div>
         </div>

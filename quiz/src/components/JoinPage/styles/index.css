@@ -1,7 +1,7 @@
 .big-logo{
     width: 511px ;
     height: 133px ;
-    background-image: url(../../../img/svg/big-logo.svg);
+    background-image: url(../../question-answer/img/svg/big-logo.svg);
     margin: 0 auto;
     margin-top: 150px;
 }
@@ -57,7 +57,7 @@ margin-top:20px;
     .big-logo{
         width: 74px ;
         height: 72px ;
-        background-image: url(../../../img/svg/young-logo.svg);
+        background-image: url(../../question-answer/img/svg/young-logo.svg);
         margin: 0 auto;
         margin-top: 150px;
         background-repeat: no-repeat;
@@ -120,7 +120,7 @@ margin-top:20px;
     .big-logo{
         width: 74px ;
         height: 72px ;
-        background-image: url(../../../img/svg/young-logo.svg);
+        background-image: url(../../question-answer/img/svg/young-logo.svg);
         margin: 130px;
         margin-top: 150px;
         background-repeat: no-repeat;

@@ -1,10 +1,10 @@
 import './styles/index.css';
-
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function JoinPage({socket}){
-
     const [messages, setMessages] = useState([])
+    const navigate = useNavigate();
 
     function hostGame()
     {
@@ -12,7 +12,7 @@ function JoinPage({socket}){
     }
 
     useEffect(() => {
-        socket.on('new player', (data) => console.log(data))
+        socket.on('joinedRoom', (data) => navigate('/my-room', {state:{pin:data.pin, users: data.users}}));
     }, [socket, messages])
 
     return(
@@ -22,10 +22,10 @@ function JoinPage({socket}){
             {messages}
             <div className='pin'>
                 <input className='pin-input' type="text" name='pin' placeholder='Code Pin de la salle'/>
-                <button className='join' name="connexion" onClick={()=>hostGame()}>Rejoindre le salon</button>
+                <button className='join' name="connexion">Rejoindre du Jeu</button>
             </div>
             <div className='create-team'>
-                <a href="/create-room">Créez votre salle</a>
+                <button onClick={() => hostGame()}>Créez votre salle</button>
             </div>
             <div className='home-footer'>
                 <p>Copyright © Quizz non-protégé 2022</p>

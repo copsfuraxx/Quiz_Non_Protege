@@ -21,6 +21,7 @@
 
 .my-room-content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -41,6 +42,7 @@
 
 .right-content{
     display: flex;
+    max-width: 100%;
 }
 
 .left-right-content{

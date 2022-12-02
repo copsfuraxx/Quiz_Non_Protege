@@ -1,22 +1,49 @@
 import './styles/index.css'
-function Myroom(){
+import {useLocation} from 'react-router-dom'
+import React, {useState} from 'react';
+import { useEffect } from 'react';
+
+function Myroom({socket}){
+
+    const [participant, setParticipant] = useState([])
+    const [pseudo, setPseudo] = useState()
+    const location = useLocation();
+    const [users, setUsers] = useState(location.state.users)
+
+    useEffect(() => setParticipant(users.length), [])
+    useEffect(() => {
+        socket.on('pseudo changed', (data) => setUsers(data));
+    }, [socket, users])
+
+    function changePseudo()
+    {
+        console.log("je change mon nom " + pseudo)
+        socket.emit("changePseudo", pseudo)
+    }
+
     return(
         <div>
             <div className='my-room'>
                 <h2>Votre salon :</h2>
+                {users.map(function(d, idx){
+                    return (<li key={idx}>{d.pseudo}</li>)
+                })}
             </div>
             <div>
                 <div className='my-room-content'>
                     <div className='left-content'>
                         <div>
                             <h5 className='first-h5'>votre code pin</h5>
-                            <h6>548 082</h6>
+                            <h6>{location.state.pin}</h6>
                         </div>
                         <div>
                             <h5>participants</h5>
-                            <h6 className='last-h6'>8</h6>
+                            <h6 className='last-h6'>{participant}</h6>
                         </div>
-                        <button>Lancer le quizz</button>
+                      
+                            <input type="text" placeholder='Votre nom' onChange={(e) => setPseudo(e.target.value)}/>
+                            <button onClick={() => changePseudo()}>Valider</button>
+                        
                     </div>
                     <div className='right-content'>
                         <div className='left-right-content'>

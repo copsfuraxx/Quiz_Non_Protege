@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Quel est la signification du VIH ?",
+        "choices": {
+            "1": "Virus de l'Immunodéficience Humaine",
+            "2": "Virus Intestinal Hebdomadaire",
+            "3": "Virus infantile Hematique",
+            "4": "Virus Immobilisant Hemoroidal"
+        },
+        "answer": [1],
+        "description": "Le virus VIH attaque progressivement les défenses immunitaires jusqu'à laisser le maladesans aucune défense face aux autres maladies"
+    },
+    {
+        "question": "Quel est la signification de SIDA ?",
+        "choices": {
+            "1": "Syndrome d'Immuno Déficience Acquise",
+            "2": "Syndrome Intestinal de Deficience Aleatoire ",
+            "3": "Seropositivité Indirect Declinant Actif",
+            "4": "Systeme Interne Decadent Aigue"
+        },
+        "answer": [1],
+        "description": "On appelle sida le fait que le malade portant le VIH est t'atteint de maladie opportuniste puisque s défense immunitaire ont été détruites"
+    },
+    {
+        "question": "Qu'est ce que la seropositivité ?",
+        "choices": {
+            "1": "On est porteur du VIH",
+            "2": "On est porteur du SIDA",
+            "3": "On est porteur de la Covid-19",
+            "4": "On est porteur de la grippe"
+        },
+        "answer": [1],
+        "description": "Être seropositif signifie que l'on est porteur du VIH mais que l'on n'est pas encore au stade SIDA"
+    },
+    {
+        "question": "Quelle(s) affirmation(s) est fausse ?",
+        "choices": {
+            "1": "Le SIDA, on en guérit !",
+            "2": "Une personne qui a le SIDA, ça se voit !",
+            "3": "Deux capotes, ça vaut mieux !",
+            "4": "Le SIDA, c'est une maladie de PD et de toxicos ! "
+        },
+        "answer": [1, 2, 3, 4],
+        "description": "Toutes sont fausses puisque le SIDA n'a pas de remede, il n'affecte pas l'apparence et tout le monde peut l'avoir. Quand au deux capotes elles s'annule puisque elles ont plus de chances de se dechirer entre elles."
+    },
+    {
+        "question": "J'ai fait une fellation (j'ai sucé), est-ce que c’est un risque ?",
+        "choices": {
+            "1": "Oui",
+            "2": "Non",
+            "3": "Peut-être",
+            "4": "Je sais pas"
+        },
+        "answer": [1],
+        "description": "Oui dans la plupart des cas. Voir les exceptions sur <a href=\"https://www.sida-info-service.org/fellation-risque\">https://www.sida-info-service.org/fellation-risque</a>"
+    },
+    {
+        "question": "Lors d'une penetration, y-a-t il est un risque ?",
+        "choices": {
+            "1": "Oui",
+            "2": "Non",
+            "3": "Peut-être",
+            "4": "Je sais pas"
+        },
+        "answer": [1],
+        "description": "Est-ce qu'il y a contact entre les muqueuses des deux partenaires et que le VIH se transmet par les muqueuses"
+    },
+    {
+        "question": "L’anulingus c’est risqué pour le VIH ?",
+        "choices": {
+            "1": "Oui",
+            "2": "Non",
+            "3": "Peut-être",
+            "4": "Je sais pas"
+        },
+        "answer": [2],
+        "description": "Non mais cela peut être risqué pour d'autres maladies comme le syphilis où l'hepatite A"
+    },
+    {
+        "question": "La syphilis, c’est quoi ?",
+        "choices": {
+            "1": "Infection bactérienne",
+            "2": "Virus",
+            "3": "Maladie hereditaire",
+            "4": "Un cousin du covid-19"
+        },
+        "answer": [1],
+        "description": "La syphilis est une maladie vénérienne emblématique, c'est une infection bactérienne très ancienne responsable de lésion de la peau et des muqueuses"
+    },
+    {
+        "question": "La syphilis, comment l'attrape t'on ?",
+        "choices": {
+            "1": "Contact direct avec une muqueuse",
+            "2": "Rapports sexuels non protégés",
+            "3": "Contact cutanée",
+            "4": "Des lésions cutanées"
+        },
+        "answer": [1, 2, 4],
+        "description": "La syphilis peut se transmettre par contact des muqueuses lors de rapports sexuelles non protégés ou encore contact de lésion cutannee"
+    },
+    {
+        "question": "Comment se faitre depister de la syphylis ?",
+        "choices": {
+            "1": "Aller acheter un test en grande surface",
+            "2": "Faire une prise de sang",
+            "3": "Aller à l'hopital",
+            "4": "Je ne sais pas"
+        },
+        "answer": [2],
+        "description": "La syphilis se dépiste par une prise de sang. Il vaut mieux attendre 5 semaines après le rapport sexuelle pour être sûr des résultats"
+    },
+    {
+        "question": "Qu'est ce que l'Hépatite B ?",
+        "choices": {
+            "1": "Un virus qui attaque le foie",
+            "2": "Un virus qui attaque les parties génitales",
+            "3": "Un virus qui attaque les organes vitaux",
+            "4": "Un virus qui attaque tout être vivant"
+        },
+        "answer": [1],
+        "description": "L’hépatite B est un virus qui attaque le foie et cause une inflammation. A ce jour, aucun traitement ne permet d’en guérir."
+    },
+    {
+        "question": "L'herpès est t'il dangeureux chez l'adulte ?",
+        "choices": {
+            "1": "Oui",
+            "2": "Non",
+            "3": "Peut-être",
+            "4": "Je ne sais pas"
+        },
+        "answer": [2],
+        "description": "L’herpès est un virus sans gravité chez l’adulte en bonne santé immunitaire."
+    },
+    {
+        "question": "Le cancer du sein peut-il toucher des hommes ?",
+        "choices": {
+            "1": "Oui",
+            "2": "Non",
+            "3": "Peut-être",
+            "4": "Je ne sais pas"
+        },
+        "answer": [1],
+        "description": "Le cancer du sein touche environ 60 000 femmes et 500 hommes par an en France."
+    },
+    {
+        "question": "Les chlamydiae, c’est quoi ?",
+        "choices": {
+            "1": "Une infection sexuellement transmissibles",
+            "2": "Une infection sanguine transparente",
+            "3": "Une indigetion sans traitement",
+            "4": "Une idées serieusement testée"
+        },
+        "answer": [1],
+        "description": "L'infection aux chlamydiae est une IST et elle est celle la plus repandue chez les moins de 25ans puisque est elle invisible car sans symptome"
+    },
+    {
+        "question": "Comment s'attrape les chlamydiae ?",
+        "choices": {
+            "1": "Frottements sexe contre sexe",
+            "2": "Pénétrations",
+            "3": "Fellations",
+            "4": "Cunnilingus"
+        },
+        "answer": [1],
+        "description": "Tout contact sexuel peut mener à une transmission des chlamydiae"
+    },
+    {
+        "question": "Qu'es ce que le Papillomavirus Humain ?",
+        "choices": {
+            "1": "C'est une infection sexuellement transmissible virale",
+            "2": "C'est une infection très répendue",
+            "3": "C'est une infection sans gravité",
+            "4": "C'est une infection grave"
+        },
+        "answer": [1, 2, 3, 4],
+        "description": "Le Papillomavirus Humain / HPV est une infection sexuellement transmissible virale. Elle est très répandue, il en existe deux types: sans gravité et grave."
+    },
+    {
+        "question": "Qu'es ce que le vaginisme ?",
+        "choices": {
+            "1": "Une contraction musculaire prolongée des muscles du vagin",
+            "2": "Une abération du vagin",
+            "3": "Peut-être liée a des angoisses",
+            "4": "Peut apparaitre au cours de la vie"
+        },
+        "answer": [1, 3, 4],
+        "description": "Le vaginisme est une contraction musculaire prolongée ou récurrente des muscles qui entourent l’ouverture du vagin. Peut-être liée a des angoisses et peut apparaitre au cours de la vie."
+    },
+    {
+        "question": "La blennorragie, c’est quoi ?",
+        "choices": {
+            "1": "Une infection sexuellement transmissibles",
+            "2": "Une infection sanguine transparente",
+            "3": "Une indigetion sans traitement",
+            "4": "Une idées serieusement testée"
+        },
+        "answer": [1],
+        "description": "La gonococcie ou blennoragie est une IST et elle connait une recrudescence depuis la fin des années 90"
+    },
+    {
+        "question": "La blennorragie est aussi appellée sobriquets de ...",
+        "choices": {
+            "1": "« chaude-pisse »",
+            "2": "« moule qui coule »",
+            "3": "« chtouille »",
+            "4": "« neige fondu »"
+        },
+        "answer": [1],
+        "description": "La gonococcie ou blennoragie est une IST et elle connait une recrudescence depuis la fin des années 90"
+    },
+    {
+        "question": "Qu’est-ce que la PrEP ?",
+        "choices": {
+            "1": "Est un mode de prévention contre le VIH",
+            "2": "S'adresse aux personnes qui ont le VIH",
+            "3": "Néccesite un suivi médical",
+            "4": "Se préscrit en pharmacie"
+        },
+        "answer": [1, 3],
+        "description": "La PrEP, ou Prophylaxie Pré-Exposition, est un mode de prévention du VIH. Voir la suite sur <a href=\"https://www.sexualites-info-sante.fr/la-prep-quest-ce-que-cest\">https://www.sexualites-info-sante.fr/la-prep-quest-ce-que-cest</a>"
+    }
+]

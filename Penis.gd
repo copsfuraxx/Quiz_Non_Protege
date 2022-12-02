@@ -6,7 +6,9 @@ var tir = true
 
 func _physics_process(delta):
 	if get_slide_count() > 0:
-		var _var = get_tree().change_scene("res://DeathMenu.tscn")
+		var dm = preload("res://DeathMenu.tscn")
+		$"../../".add_child(dm.instance())
+		$"../".queue_free()
 	var movement = Vector2.ZERO
 	if Input.is_action_pressed("left"):
 		movement.x -= speed

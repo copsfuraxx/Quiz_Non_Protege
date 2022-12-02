@@ -10,6 +10,8 @@ function App() {
         <Routes>
           <Route path="/" element={ <Home socket={socket}/> } />
           <Route path="game" element={ <Game socket={socket}/> } />
+          <Route path="create-room" element={ <Create-room socket={socket}/> } />
+          <Route path="my-room" element={ <My-room socket={socket}/> } />
         </Routes>
         </div>
         )

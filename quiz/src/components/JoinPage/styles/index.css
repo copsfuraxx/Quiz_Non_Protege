@@ -52,3 +52,77 @@ margin-top:20px;
     text-align: center;
     margin-top: 100px;
 }
+
+@media screen and (max-width :528px){
+    .big-logo{
+        width: 74px ;
+        height: 72px ;
+        background-image: url(../../../img/svg/young-logo.svg);
+        margin: 0 auto;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+    }
+
+    .pin button:focus{
+        background-color: white;
+        color: black;
+    }
+
+    .pin{
+        background-color: #BE1622;
+        width: 224px;
+        height: 91.5px;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.25);
+    }
+    
+    .pin input{
+        width: 208.5px;
+        height: 32px;
+        margin: 0 auto;
+        font-size: 12px;
+        font-family: g-bold;
+        background: white;
+        color: grey;
+        border: none;
+        text-align: center;
+        margin-top:10px;
+        }
+    
+    .pin button{
+    width: 208.5px;
+    height: 32px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: g-bold;
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    }
+    
+    .pin button:hover{
+        cursor: pointer;
+    }
+    
+    .home-footer p{
+        font-size: 16px;
+        font-family: g-regular;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width :320px){
+    .big-logo{
+        width: 74px ;
+        height: 72px ;
+        background-image: url(../../../img/svg/young-logo.svg);
+        margin: 130px;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+    }
+}
